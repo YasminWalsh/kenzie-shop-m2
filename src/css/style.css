@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1{
+/*     background-color: blue; */ 
+    width: 100%;
+    font-family: Archivo;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+}
+
+ul{
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: brown; */
+    
+}
+
+ul li{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 25%;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+ul li> img{
+    /* height: 60%;
+    width: 100%;
+    object-fit: contain; */
+
+    width: 227px;
+    height: 224px;
+}
+
+ul li>div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    
+}
+
+ul li>div>p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.0275em;
+    text-align: left;
+    
+
+}
+
+.box-preco{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.preco{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.precoTotal{
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00000054;
+}
+
+.botao{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.018em;
+    text-align: right;
+    background-color: white;
+    color: #2264D1;
+
+    height: 26px;
+    width: 88px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #9DC2FF;
+    border-radius: 4px;
+
+}
+
+/* aprender a deixar eles igualados em linha, todos os itens da div descricao */
+
+
